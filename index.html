@@ -4,19 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="estilo.css">
     <title>Estoicismo diário</title>
 </head>
 <body>
-    <h1>frase do dia</h1>
-    <button class="btn" id="fraseBtn">Gerar Frase</button>
-    <div class="frase-container">
-        <div id="fraseSaida">
-            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus maiores aliquid a, accusantium repellendus modi.</span>
+    <div class="principal container">
+        <h1 class="principal__titulo">Estoico diário</h1>
+        <p class="principal__texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, culpa voluptatem magni ad laborum quia molestiae praesentium unde quaerat deleniti totam eius nesciunt omnis, deserunt doloremque? Aliquam corrupti suscipit reprehenderit!
+        </p>
+    </div>
+    <div class="frase container">
+        <h1 class="frase__titulo">frase do dia</h1>
+        <div>
+            <button class="btn" id="quoteBtn">Gerar Frase</button>
         </div>
-        <div id="autorSaida">
-            <small>-Autor-</small>
+        <div class="quote-container container">
+            <div id="quoteOutput">
+                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus maiores aliquid a, accusantium repellendus modi.</span>
+            </div>
+            <div id="authorOutput">
+                <small>-Autor-</small>
+            </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
