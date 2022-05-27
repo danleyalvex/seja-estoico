@@ -61,7 +61,27 @@ const arrayOfQuotes=[
     },
     {
         autor:'Epicteto',
-        frase:'É por isso que os filósofos nos alertam para não ficarmos satisfeitos com o mero aprendizado, mas para adicionar a prática e depois o treinamento. Pois com o passar do tempo esquecemos o que aprendemos e acabamos fazendo o oposto, e temos opiniões opostas do que deveríamos'
+        frase:'É por isso que os filósofos nos alertam para não ficarmos satisfeitos com o mero aprendizado, mas para adicionar a prática e depois o treinamento. Pois com o passar do tempo esquecemos o que aprendemos e acabamos fazendo o oposto, e temos opiniões opostas do que deveríamos.'
+    },
+    {
+        autor:'Sêneca',
+        frase:'O sábio não se eleva pela prosperidade nem se abate pela adversidade; pois sempre ele se esforçou para confiar predominantemente em si mesmo e obter toda a alegria.'
+    },
+    {
+        autor:'Epicteto',
+        frase:'O segredo é manter a companhia apenas de pessoas que o enaltecem, cuja presença desperta o que você tem de melhor.'
+    },
+    {
+        autor:'Marco Aurélio',
+        frase:'Você tem poder sobre sua mente, não sobre eventos externos. Perceba isso e você encontrará força.'
+    },
+    {
+        autor:'Sêneca',
+        frase:'Uma gema não pode ser polida sem atrito, nem um homem aperfeiçoado sem provações.'
+    },
+    {
+        autor:'Marco Aurélio',
+        frase:'A primeira regra é manter o espírito imperturbável. A segunda é olhar as coisas de frente e saber o que são.'
     },
 ];
 

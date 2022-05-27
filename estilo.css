@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background: linear-gradient(90deg, rgb(81, 6, 62)28%, rgb(56, 9, 67) 100%);
+    background: linear-gradient(90deg, rgb(44, 0, 33)28%, rgb(28, 8, 32) 100%);
     color: #dee2e6;
 
     
@@ -72,25 +72,29 @@ body {
     margin-bottom: .5rem;
 }
 
+em {
+    color: #ff00d4;
+}
+
 button {
-    color: #dee2e6;
+    color: #ca63b9;
+    border:1px solid #ff00d4;
     cursor: pointer;
     font-weight: 700;
-    border: none;
-    padding: .8rem 1rem;
+    padding: .6rem .5rem;
     border-radius: 8px;
-    background: linear-gradient(120deg, rgb(0, 14, 120)28%, rgb(25, 0, 123) 100%);
+    background: linear-gradient(120deg, rgba(255, 0, 119, 0.103)28%, rgba(25, 0, 123, 0.185) 100%);
     transition: .7s ease-in-out;
 }
 
 button:hover {
-    background-color: #7b2cbf;
+    background-color: #110010;
     transform: scale(1.1);
 }
 
 
 .quote-container {
-    background-color: #10002b;
+    background-color: #7c00672a;
     padding: 1rem;
     border-radius: 10px;
     
@@ -101,10 +105,37 @@ button:hover {
 }
 
 small {
-    color: #7b2cbf;
+    color: #c27dff;
     box-sizing: border-box;
     border-left: 4px solid #f72585;
     padding-left: 2px;
     font-weight: 700;
     
+}
+.principios__titulo{
+    font-size: 1.2rem;
+    background-color: #f725841a;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+ul {
+    list-style-type: decimal-leading-zero;
+    width: 80%;
+    /* text-align: center; */
+    margin-left: 1.6rem;
+}
+li::first-letter{
+    text-transform: capitalize;
+}
+
+li {
+    font-size: 1rem;
+    background-color: #f7258409;
+    padding: .8rem;
+    border-radius: 10px;
+    margin-bottom: .4rem;
+    /* margin-top: .2rem; */
 }
