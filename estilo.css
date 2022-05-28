@@ -1,8 +1,7 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali&family=Quicksand:wght@300;700&display=swap');
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     background: linear-gradient(90deg, rgb(44, 0, 33)28%, rgb(28, 8, 32) 100%);
     color: #dee2e6;
 
@@ -80,6 +79,7 @@ button {
     color: #ca63b9;
     border:1px solid #ff00d4;
     cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     padding: .6rem .5rem;
     border-radius: 8px;
@@ -98,6 +98,11 @@ button:hover {
     padding: 1rem;
     border-radius: 10px;
     
+}
+
+span {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
 }
 
 #authorOutput{
@@ -138,4 +143,60 @@ li {
     border-radius: 10px;
     margin-bottom: .4rem;
     /* margin-top: .2rem; */
+}
+
+.rodape {
+    opacity: 43%;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+@media screen and (min-width:1024px){
+    .container {
+        width: 940px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .principal__titulo {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+    
+    .frase__titulo {
+        margin-top: 3rem;
+        margin-bottom: .5rem;
+    }
+
+    .principal {
+        margin-top: 3rem;
+    }
+
+    button {
+        color: #ca63b9;
+        border:1px solid #ff00d4;
+        cursor: pointer;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700;
+        margin-bottom: 3rem;
+        padding: .6rem .5rem;
+        border-radius: 8px;
+        background: linear-gradient(120deg, rgba(255, 0, 119, 0.103)28%, rgba(25, 0, 123, 0.185) 100%);
+        transition: .7s ease-in-out;
+    }
+    
+    button:hover {
+        background-color: #110010;
+        transform: scale(1.1);
+    }
+
+    .rodape {
+        opacity: 43%;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+    
 }
