@@ -29,7 +29,7 @@ const arrayOfQuotes=[
     },
     {
         autor:'Marco Aurélio',
-        frase:'Se você está angustiado por qualquer coisa externa, a dor não se deve à coisa em si, mas à sua estimativa dela; e isso você tem o poder de revogar a qualquer momento.'
+        frase:'A felicidade da sua vida depende da qualidade dos seus pensamentos.'
     },
     {
         autor:'Sêneca',
@@ -37,7 +37,7 @@ const arrayOfQuotes=[
     },
     {
         autor:'Marco Aurélio',
-        frase:'Se você está angustiado por qualquer coisa externa, a dor não se deve à coisa em si, mas à sua estimativa dela; e isso você tem o poder de revogar a qualquer momento.'
+        frase:'Se for suportável, então aguente. Pare de reclamar.'
     },
     {
         autor:'Sêneca',
@@ -79,21 +79,21 @@ const arrayOfQuotes=[
         autor:'Sêneca',
         frase:'Uma gema não pode ser polida sem atrito, nem um homem aperfeiçoado sem provações.'
     },
-    // {
-    //     autor:'Marco Aurélio',
-    //     frase:'A primeira regra é manter o espírito imperturbável. A segunda é olhar as coisas de frente e saber o que são.'
-    // },
     {
         autor:'Marco Aurélio',
         frase:'A primeira regra é manter o espírito imperturbável. A segunda é olhar as coisas de frente e saber o que são.'
     },
     {
-        autor:'Marco Aurélio',
-        frase:'A primeira regra é manter o espírito imperturbável. A segunda é olhar as coisas de frente e saber o que são.'
+        autor:'Epicteto',
+        frase:'Quando alguém está devidamente fundamentado na vida, não deve ter que olhar para fora de si para obter aprovação.'
     },
     {
-        autor:'Marco Aurélio',
-        frase:'A primeira regra é manter o espírito imperturbável. A segunda é olhar as coisas de frente e saber o que são.'
+        autor:'Sêneca',
+        frase:'Todo o futuro está na incerteza: viva imediatamente.'
+    },
+    {
+        autor:'Sêneca',
+        frase:'A mente que está ansiosa com os eventos futuros é miserável.'
     },
 ];
 
