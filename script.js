@@ -79,6 +79,18 @@ const arrayOfQuotes=[
         autor:'Sêneca',
         frase:'Uma gema não pode ser polida sem atrito, nem um homem aperfeiçoado sem provações.'
     },
+    // {
+    //     autor:'Marco Aurélio',
+    //     frase:'A primeira regra é manter o espírito imperturbável. A segunda é olhar as coisas de frente e saber o que são.'
+    // },
+    {
+        autor:'Marco Aurélio',
+        frase:'A primeira regra é manter o espírito imperturbável. A segunda é olhar as coisas de frente e saber o que são.'
+    },
+    {
+        autor:'Marco Aurélio',
+        frase:'A primeira regra é manter o espírito imperturbável. A segunda é olhar as coisas de frente e saber o que são.'
+    },
     {
         autor:'Marco Aurélio',
         frase:'A primeira regra é manter o espírito imperturbável. A segunda é olhar as coisas de frente e saber o que são.'

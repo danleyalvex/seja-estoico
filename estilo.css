@@ -9,48 +9,6 @@ body {
 }
 
 
-/* DESKTOP? TALVEZ?
- */
-
-/* .principal {
-    text-align: center;
-    width: 940px;
-    margin: 0 auto;
-}
-
-.principal {
-    margin-top: 5rem;
-}
-
-.principal__titulo {
-    margin-bottom: 1rem;
-    font-size: 2rem;
-}
-
-
-.frase {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4rem;
-}
-
-.frase__titulo {
-    font-size: 1.3rem;
-    text-transform: capitalize;
-    margin-bottom: .5rem;
-}
-
-.quote-container {
-    text-align: center;
-    margin-top: 3rem;
-    width: 350px;
-    background-color: aqua;
-    padding: 2rem;
-} */
-
-
 .container {
     margin-left: 6%;
     margin-right: 6%;
@@ -61,6 +19,9 @@ body {
     align-items: center;
 }
 
+.logo__principal {
+    margin-bottom: 1.4rem;
+}
 
 .principal__titulo {
     font-size: 1.4rem;
@@ -82,8 +43,9 @@ button {
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     padding: .6rem .5rem;
-    border-radius: 8px;
+    border-radius: 15rem;
     background: linear-gradient(120deg, rgba(255, 0, 119, 0.103)28%, rgba(25, 0, 123, 0.185) 100%);
+    box-shadow: 1px 2px 5px #69004fbe;
     transition: .7s ease-in-out;
 }
 
@@ -183,7 +145,7 @@ li {
         font-weight: 700;
         margin-bottom: 3rem;
         padding: .6rem .5rem;
-        border-radius: 8px;
+        border-radius: 15rem;
         background: linear-gradient(120deg, rgba(255, 0, 119, 0.103)28%, rgba(25, 0, 123, 0.185) 100%);
         transition: .7s ease-in-out;
     }
