@@ -24,7 +24,7 @@ body {
 }
 
 .principal__titulo {
-    font-size: 1.4rem;
+    font-size: .9rem;
     margin-bottom: 1rem;
 }
 
@@ -42,6 +42,7 @@ button {
     cursor: pointer;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
+    width: 10rem;
     padding: .6rem .5rem;
     border-radius: 15rem;
     background: linear-gradient(120deg, rgba(255, 0, 119, 0.103)28%, rgba(25, 0, 123, 0.185) 100%);
@@ -143,6 +144,7 @@ li {
         cursor: pointer;
         font-family: 'Quicksand', sans-serif;
         font-weight: 700;
+        width: 10rem;
         margin-bottom: 3rem;
         padding: .6rem .5rem;
         border-radius: 15rem;

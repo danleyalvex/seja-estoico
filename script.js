@@ -95,6 +95,10 @@ const arrayOfQuotes=[
         autor:'Sêneca',
         frase:'A mente que está ansiosa com os eventos futuros é miserável.'
     },
+    {
+        autor:'Marco Aurélio',
+        frase:'Acolhe a alvorada já dizendo, antecipadamente, para ti mesmo: vou topar com o indiscreto, com o ingrato, com o insolente, com o pérfido, com o invejoso, o insociável.'
+    },
 ];
 
 function generateQuote () {
