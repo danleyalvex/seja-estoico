@@ -4,26 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f71e83bb45.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="./css/base.css">
     <link rel="shortcut icon" href="img/icon.png">
-    <title>Estoico diário</title>
+    <title>Ser Estóico</title>
 </head>
 <body>
-    <div class="principal container">
-        <img src="img/logo-estoico.png" alt="" class="logo__principal">
-        
-        <p class="principal__texto">
-            O <em>Estoicismo </em>mostra que você não deve dar tanta importância as coisas que você não tem controle.
-            Seu foco deve ser direcionado a manter o controle somente sobre você e sobre suas emoções.
-        </p>
-    </div>
-    <div class="frase container">
-        <h1 class="frase__titulo">Clique e veja a frase do dia!</h1>
-        <div>
-            <button class="btn" id="quoteBtn">Gerar Frase</button>
+    <header class="cabecalho">
+        <h1 class="cabecalho__logo">Seja estóico.</h1>
+        <nav class="navegacao">
+            <ul class="nav__links">
+                <li class="links">Início</li>
+                <li class="links">Estoicismo</li>
+                <li class="links">Origem</li>
+                <li class="links">Estóico</li>
+                <li class="links">Galeria</li>
+            </ul>
+        </nav>
+    </header>
+
+   <section class="chamada">
+    <div class="frase">
+        <h1 class="frase__titulo conteudo">Clique e veja a frase do dia!</h1>
+        <div class="conteudo">
+            <button class="btn" id="quoteBtn" title="Clique e veja a frase do dia">Gerar Frase</button>
         </div>
-        <div class="quote-container container">
+        <div class="quote-container conteudo">
             <div id="quoteOutput">
                 <span>A frase do dia aparecerá aqui!</span>
             </div>
@@ -32,26 +39,154 @@
             </div>
         </div>
     </div>
-    <div class="secao__principios container">
-        <h1 class="principios__titulo">10 Princípios do estoicismo</h1>
-        <ul>
-            <li>Aja de forma virtuosa.</li>
-            <li>concentre-se no que voce controla e aceite o restante.</li>
-            <li>assuma responsabilidade pelo que você controla.</li>
-            <li>saiba diferenciar entre o que é bom, mau e indiferente.</li>
-            <li>coloque os aprendizados em prática.</li>
-            <li>pergunte-se o que poderia dar errado.</li>
-            <li>internalize seus objetivos.</li>
-            <li>transforme obstáculos em oportunidades.</li>
-            <li>ame seu destino, por que não há outro melhor.</li>
-            <li>esteja sempre autoconsciente.</li>
-        </ul>
-    </div>
+    
+   </section>
+    <!-- SECAO PRINCIPIOS -->
+    <section class="principios" id="principio">
+        <article class="principal container">
+            <h1 class="principios__titulo">O Estoicismo</h1>
+            <p class="principal__texto">
+                A Filosofia do Estoicismo tem por objetivo libertar o homem das emoções negativas e propiciar o cultivo de um estado de alegria interior que emana do seu ser, independente das circunstancias externas, em seu núcleo, ensina como separar o que você pode controlar do que não pode e o treina para se concentrar exclusivamente no primeiro.
+             </p>
+             <blockquote class="principal__segundo-texto">
+               <p>"O Estoico deve estar constantemente imerso em uma alegria ou felicidade que provém de seu interior, uma vez que ele encontra apenas em si mesmo e não deseja outros prazeres que não possui" <br>- <span>Sêneca</span> </p>
+             </blockquote>
+        </article>
+        <article class="secao__principios container">
+            <h2 class="titulo__lista">Virtudes do Estoicismo</h2>
+            <p class="principios__texto">É indiscutível que a virtude deva ser sua própria recompensa. Você faz algo porque é a coisa certa a fazer. Você age virtuosamente por sua própria causa.  Às vezes, agir de acordo com a virtude traz benefícios adicionais,  no entanto, esses benefícios devem ser interpretados como “bônus adicional” e não podem ser o principal motivo da ação</p>
+            <div class="principios__lista">
+                <details><summary class="lista">Prudencia</summary>
+                    <p class="lista__texto">A virtude que dispõe a razão prática para discernir, em qualquer circunstância, o verdadeiro bem e para escolher os justos meios de o atingir;</p>
+                </details>
+                <details>
+                    <summary class="lista">Justiça</summary>
+                    <p class="lista__texto">A virtude moral que consiste na constante e firme vontade de dar a cada um o que lhe é devido;</p>
+                </details>
+               <details>
+                    <summary class="lista">Temperança</summary>
+                    <p class="lista__texto">A virtude moral que modera a atracção dos prazeres e proporciona o equilíbrio no uso dos bens criados. Assegura o domínio da vontade sobre os instintos e mantém os desejos nos limites da honestidade;</p>
+               </details>
+                <details >
+                    <summary class="lista">Fortaleza</summary>
+                    <p class="lista__texto">Virtude moral que, no meio das dificuldades, assegura a firmeza e a constância na prossecução do bem. Torna firme a decisão de resistir às tentações e de superar os obstáculos na vida moral.</p>
+                </details>                
+            </div>
+            <p class="principios__texto-dois">
+            Frequentemente, nossas fontes de miséria são identificadas com coisas que estão totalmente fora de nosso controle.  
+            Imagine um cenário em que nossa alegria não dependesse de coisas como dinheiro e avaliações de outras pessoas. 
+            Imagine um cenário em que pudéssemos nos preparar para que nossa felicidade dependesse apenas de coisas que estão totalmente sob nosso controle.
+            Este é um dos princípios fundamentais de conhecimento do estoicismo.</p>
+        </article>
+    </section>
+    
+    <!-- SECAO PRINCIPAIS FILOSOFOS -->
+    
+    <section class="filosofos container">
+        <h1 class="filosofos__titulo">A origem do estoicismo</h1>
+        <article class="filosofos__resumo">
+            <p class="filosofos__resumos-texto">
+                A história do Estoicismo começou com o naufrágio de Zenão de Cítio (atual Lárnaca, na ilha de Chipre), um mercador da região da Fenícia. Foi ele quem criou o Estoicismo. Tudo começou quando em mais uma viagem ele transportava as águas gregas com mercadorias. Afundou quando navegava da Fenícia até Pirei.
+            </p>
+            <p class="filosofos__resumos-texto">
+                Inicialmente, os gregos foram os autores do Estoicismo. As ideias de Zenão foram posteriormente desenvolvidas por Crisipo, que escreveu sozinho mais de 700 livros sobre o tema. Entretanto, nenhum sobreviveu.
+                Quando o Império Romano absorveu a cultura grega, o Estoicismo chegou em Roma. É comum dizer que Roma venceu a Grécia belicamente, mas perdeu culturalmente. O helenismo foi mais forte.
+                Felizmente, os estoicos de Roma possuem suas obras ainda conhecidas.
+            </p>
+        </article>
+        <h1 class="filosofos__titulo">Filosofos mais conhecidos</h1>
+        <div class="cards">
+            <article class="filosofos__secao">
+                <div class="card__filosofos">
+                    <h1 class="filosofos__titulo-secao">Marco Aurélio</h1>
+                    <img src="./img/aurelio.jpg" alt="imagem marco Aurélio" class="filosofos__img">
+                    <p class="filosofos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quibusdam?</p>
+                </div>
+            </article>
+            <article class="filosofos__secao">
+                <div class="card__filosofos">
+                    <h1 class="filosofos__titulo-secao">Sêneca</h1>
+                    <img src="./img/aurelio.jpg" alt="imagem marco Aurélio" class="filosofos__img">
+                    
+                    <p class="filosofos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quibusdam?</p>
+                </div>
+            </article>
+            <article class="filosofos__secao">
+                <div class="card__filosofos">
+                    <h1 class="filosofos__titulo-secao">Epicteto</h1>
+                    <img src="./img/aurelio.jpg" alt="imagem marco Aurélio" class="filosofos__img">
+                    <p class="filosofos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quibusdam?</p>
+                </div>
+               
+            </article>
+        </div>
+       
+    </section>
+    <section class="estoico__secao container">
+        <article class="estoico__principal">
+            <h1 class="estoico__titulo">Como se tornar um estóico</h1>
+            <P class="estoico__texto">No Estoicismo, Nossas ações são mais valorizadas do que as palavras. Valorizamos a prática mais do que a teoria. A pessoa estóica vive uma vida autoconsciente,  aprende a gostar de quem é e define onde quer chegar.</P>
+            <p class="estoico__texto">É preciso aprender a se controlar e ficar mais atento a tudo. Apesar de ser possível controlar as ações e críticas, a maioria das coisas foge ao nosso controle e não vale o estresse que causa. Ser estoico não é ser frio e distante; portanto, pense antes de falar (ou não diga nada). Além de adotar esse comportamento no dia a dia, estude o Estoicismo por meio da meditação e de reflexões.</p>
+        </article>
+        <article class="estoico__lista">
+            <ul class="lista-estoico">
+                <li class="lista-item"><h1 class="lista-item__titulo">Aceite o que não dá para mudar</h1><p class="lista-item__texto">Imagine uma partida de futebol: não dá para controlar as habilidades dos oponentes, as decisões do juiz ou como as condições do clima afetam a bola. Por outro lado, você pode escolher o quanto treina antes da partida, quantas horas vai descansar etc.</p></li>
+                <li class="lista-item"><h1 class="lista-item__titulo">
+                    Pense antes de falar e reagir com as emoções à flor da pele. </h1><p class="lista-item__texto">Por exemplo: se alguém o ofender, não xingue a pessoa de volta só de raiva. Não discuta, mas reflita se o que ela disse é verdade e se há formas de melhorar.</p>
+                <p class="lista-item__texto">Se sentir que está ficando irritado e não consegue se concentrar nos fatos, visualize ambientes calmos e agradáveis, cantarole uma música mentalmente ou repita algum mantra, como “Se eu não consigo controlar, não preciso fazer nada”.</p></li>
+                <li class="lista-item"><h1 class="lista-item__titulo">Não se preocupe com as outras pessoas.</h1><p class="lista-item__texto">Não há nada errado em falar com as pessoas, mas tente não balbuciar coisas sem sentido só porque está nervoso. É impossível controlar os outros — e não há motivo para ficar nervoso. Não se sinta obrigado a se adaptar ao que os outros esperam, ainda mais se isso comprometer a sua própria moral.</p></li>
+                <li class="lista-item"><h1 class="lista-item__titulo">Seja humilde e aberto a novos conhecimentos.</h1><p class="lista-item__texto">Aprenda com cada oportunidade, mas não tente ser um sabe-tudo. Ninguém aprende quando acha que já conheceu tudo o que podia conhecer. A sabedoria é uma das principais virtudes do Estoicismo, além de ser necessária para as pessoas admitirem que não são perfeitas.<br><br> Leia livros, ouça podcasts, veja documentários e informe-se de outras maneiras para se educar cada vez mais</p></li>
+                <li class="lista-item"><h1 class="lista-item__titulo">Seja justo, não grosso.</h1><p class="lista-item__texto"> As pessoas estoicas não estão interessadas em conflitos emocionais, vingança ou coisas do tipo — mas não é por isso que são frias, distantes e isoladas. É possível ter empatia até por quem nos magoa, desde que não reajamos com as emoções à flor da pele. <br><br>Por exemplo: se algum amigo ou parente descontar a raiva que está sentindo em você, não vire a cara para ele. Diga “Eu não acho legal ficar trocando ofensas. Vamos nos acalmar e lidar com a situação em outro momento”. <br><br>A vingança nunca é um princípio de quem é estoico. Por exemplo: se você é responsável por supervisionar outros funcionários no trabalho, pense em formas justas de “cobrar” determinadas atitudes deles, mas sem exagerar nos castigos quando algo der errado.
+                </p></li>
+                <li class="lista-item"><h1 class="lista-item__titulo">Não perca tempo com distrações.</h1><p class="lista-item__texto">O tempo é precioso; por isso, tente não perdê-lo com coisas inúteis. Pode ser difícil, já que o mundo é tão agitado, mas concentre-se em cada coisa que você fizer — mesmo que esteja sentado sozinho ou conversando com amigos. Não fique grudado no celular e no computador. <br><br>Tente também não ficar absorto em distrações como notícias do mundo, eventos atuais e catástrofes. Informar-se é uma coisa, mas ficar estressado por causa do assunto não faz bem.
+                </p></li>
+                <li class="lista-item"><h1 class="lista-item__titulo">Aproveite cada momento. </h1><p class="lista-item__texto">Por exemplo: ao receber uma taça de um vinho caro, uma pessoa estoica pode tomá-la e pensar “E se essa for a última taça de vinho da minha vida?”. Não é que ela está pensando que vai morrer, e sim que decidiu aproveitar esse momento em particular.</p></li>
+                <li class="lista-item"><h1 class="lista-item__titulo">Não se preocupe com as coisas pequenas.</h1><p class="lista-item__texto">A paz de espírito é muito mais importante do que as coisas de baixo valor. Como o filósofo do Estoicismo Epíteto disse, “Começando com coisas pequenas — um pouco de óleo derramado, um pouco de vinho roubado —, repita para si mesmo: ‘Por um preço tão pequeno, posso comprar felicidade’”.</p></li>
+                <li class="lista-item"><h1 class="lista-item__titulo">
+                    Tente imaginar uma grande perda.</h1><p class="lista-item__texto"> praemeditatio malorum é uma meditação do Estoicismo na qual o praticante se imagina perdendo algo importante, como o emprego ou um ente querido. Imagine uma situação do tipo por alguns segundos. Ela vai ser perturbadora, mas ajudar você a aceitar a impermanência das coisas, se preparar para os obstáculos, refletir sobre o que é bom e superar os medos.</p></li>
+                <li class="lista-item"><h1 class="lista-item__titulo">Dê mais valor à sua moral do que aos ganhos materiais e aos elogios.</h1><p class="lista-item__texto">A força do caráter é muito mais importante do que a fortuna, os prêmios e os elogios. Tome decisões de acordo com os seus princípios, e não com o que elas podem gerar. <br><br> Por exemplo: não ajude quem precisa só para ser reconhecido, e sim porque é o certo a fazer. Ademais, não se gabe disso.</p></li>
+            </ul>
+        </article>
+        <article class="estoico__livros container">
+            <h1 class="estoico__livros-titulo">Livros</h1>
+            <p class="estoico__livros-texto">
+                Livros para começar a aprender sobre a fio
+            </p>
+            <ul class="lista-livros">
+                
+                <li class="livros-item">
+                    <img src="./img/livro1.jpg" alt="" class="imagem-lista">
+                </li>
+                <li class="livros-item">
+                    <img src="./img/livro2.jpg" alt="" class="imagem-lista">
+                </li>
+                <li class="livros-item">
+                    <img src="./img/livro3.jpg" alt="" class="imagem-lista">
+                </li>
+            </ul>
+        </article>
+
+    </section>
+
+    <!-- <section class="galeria container">
+        <h1 class="geleria__titulo">Wallpapers</h1>
+        <div class="row">
+            <div class="column">
+              <img src="wedding.jpg">
+              <img src="rocks.jpg">
+              <img src="falls2.jpg">
+              <img src="paris.jpg">
+              <img src="nature.jpg">
+              <img src="mist.jpg">
+              <img src="paris.jpg">
+            </div>
+        </div>
+    </section> -->
+
     <footer class="rodape container">
         <h1 class="principal__titulo">Estoico diário</h1>
         <a href="">&copy 2022 Danley Alves</a>
     </footer>
-  
     <script src="script.js"></script>
 </body>
 

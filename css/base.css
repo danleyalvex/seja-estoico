@@ -1,0 +1,198 @@
+@import url('chamada.css');
+@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Medula+One&family=Quicksand:wght@300;700&display=swap');
+
+@import url('principios.css');
+@import url('cabecalho.css');
+@import url('filosofos.css');
+@import url('estoico.css');
+@import url('livros.css');
+
+/* VARIAVEIS */
+:root{
+    scroll-behavior: smooth;
+    --cor-primaria: #9d0208;
+    --cor-secundaria: #0a0908;
+    --cor-terciaria: #370617a4;
+    --cor-auxiliar: #9e2a2b;
+    --font-primaria: 'Quicksand', sans-serif;
+    --font-secundaria: 'Medula One';
+    --font-terciaria: 'Macondo Swash Caps';
+    --tamanho-titulo: 1.7rem;
+    --tamanho-subtitulo: 1.4rem;
+    --tamanho-texto:1.2rem;
+}
+
+.container {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 3rem;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.conteudo {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 1rem;
+}
+
+
+body {
+    font-family: var(--font-primaria);
+    background: linear-gradient(120deg, rgb(14, 14, 14)28%, rgb(32, 8, 8) 100%);
+    color: #dee2e6;
+}
+
+.rodape {
+    opacity: 43%;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+/* RESPONSIVO */
+
+@media screen and (min-width: 768px) {
+    .container {
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+
+    .frase {
+        background-image: url('../img/marcus.jpg');
+        background-repeat: no-repeat;
+        background-position: 60% 20%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .button {
+        padding: 1.3em 3em;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #000;
+        background-color: #fff;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+      }
+      
+      .button:hover {
+        background-color: #333333;
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.425);
+        color: #fff;
+        transform: translateY(-7px);
+      }
+      
+      .button:active {
+        transform: translateY(-1px);
+      }
+
+      .card__filosofos {
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+      }
+
+    
+    
+}
+
+@media screen and (min-width:1024px){
+
+    .container {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .conteudo {
+        margin-right: 50%;
+    }
+
+    .frase {
+        background-image: url('../img/marcus.jpg');
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .button {
+        padding: 1.3em 3em;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #000;
+        background-color: #fff;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+      }
+      
+      .button:hover {
+        background-color: #333333;
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.425);
+        color: #fff;
+        transform: translateY(-7px);
+      }
+      
+      .button:active {
+        transform: translateY(-1px);
+      }
+
+    /* .container {
+        width: 940px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .principal__titulo {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+    
+    .frase__titulo {
+        margin-top: 3rem;
+        margin-bottom: .5rem;
+    }
+
+    .principal {
+        margin-top: 3rem;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .card__filosofos {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+      }
+
+
+}

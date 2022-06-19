@@ -1,0 +1,28 @@
+.cabecalho {
+    position: absolute;
+    width: 100vw;
+    background-color: var(--cor-terciaria);
+    font-family: var(--font-terciaria);
+}
+
+.cabecalho__logo {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: .7rem;
+    margin-bottom: .7rem;
+}
+
+.navegacao {
+
+    margin-bottom: .6rem;
+}
+
+.nav__links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+} 
+

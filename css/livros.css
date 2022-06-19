@@ -1,0 +1,11 @@
+.estoico__livros-titulo {
+    font-size: var(--tamanho-titulo);
+    text-align: center;
+    font-weight: 700;
+}
+
+.estoico__livros-texto {
+    font-size: var(--tamanha-texto);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}

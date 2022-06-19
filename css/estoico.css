@@ -1,0 +1,48 @@
+.estoico__secao {
+    /* background-color: aqua; */
+    padding-top: 3rem;
+}
+
+.estoico__titulo {
+    font-size: var(--tamanho-titulo);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.estoico__texto {
+    line-height: normal;
+    margin-bottom: 1rem;
+    font-size: var(--tamanho-texto);
+}
+.lista-item {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    
+}
+
+.lista-item__texto {
+    margin-bottom: 1rem;
+    background-color: rgba(255, 0, 25, 0.049);
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+
+.lista-item__titulo {
+    font-size: var(--tamanho-subtitulo);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.lista-item__texto {
+    line-height: normal;
+
+}
+
+.livros-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}

@@ -1,3 +1,4 @@
+
 const generateQuoteBtn = document.getElementById("quoteBtn");
 const quoteOutput = document.getElementById("quoteOutput");
 const authorOutput = document.getElementById("authorOutput");
@@ -56,14 +57,6 @@ const arrayOfQuotes=[
         frase:'Não espere que tudo aconteça como você deseja, mas sim como tudo realmente deve acontecer; então sua vida irá fluir bem.'
     },
     {
-        autor:'Epicteto',
-        frase:'A principal tarefa na vida é simplesmente esta: identificar e separar as coisas para que eu possa dizer claramente a mim mesmo quais são as coisas externas que não estão sob meu controle e quais têm a ver com as escolhas que eu realmente controlo. Onde então procuro o bem e o mal? Não às coisas externas incontroláveis, mas dentro de mim, nas escolhas que são minhas.'
-    },
-    {
-        autor:'Epicteto',
-        frase:'É por isso que os filósofos nos alertam para não ficarmos satisfeitos com o mero aprendizado, mas para adicionar a prática e depois o treinamento. Pois com o passar do tempo esquecemos o que aprendemos e acabamos fazendo o oposto, e temos opiniões opostas do que deveríamos.'
-    },
-    {
         autor:'Sêneca',
         frase:'O sábio não se eleva pela prosperidade nem se abate pela adversidade; pois sempre ele se esforçou para confiar predominantemente em si mesmo e obter toda a alegria.'
     },
@@ -99,6 +92,10 @@ const arrayOfQuotes=[
         autor:'Marco Aurélio',
         frase:'Acolhe a alvorada já dizendo, antecipadamente, para ti mesmo: vou topar com o indiscreto, com o ingrato, com o insolente, com o pérfido, com o invejoso, o insociável.'
     },
+    {
+        autor:'Epicteto',
+        frase:'Não é a miséria que dói, mas a cobiça'
+    },
 ];
 
 function generateQuote () {
@@ -107,3 +104,4 @@ function generateQuote () {
     quoteOutput.innerHTML = `<span>${arrayOfQuotes[random].frase}</span>`;
     authorOutput.innerHTML = `<small>${arrayOfQuotes[random].autor}</small>`;
 }
+

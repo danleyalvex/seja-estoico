@@ -1,0 +1,120 @@
+
+
+.logo__principal {
+    margin-bottom: 1.4rem;
+}
+
+.principal__titulo {
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+
+.frase {
+    background-image: url('../img/celular.png');
+    background-position: -2% 5%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+
+.frase__titulo {
+    color: rgba(255, 255, 255, 0.195);
+    margin-bottom: .2rem;
+    background-color: rgba(155, 131, 131, 0);
+    font-size: .7rem;
+    padding: .2rem;
+    font-weight: 700;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out;
+}
+
+.frase__titulo:hover{
+  color: rgba(255, 255, 255, 0.772);
+  background-color: rgba(0, 0, 0, 0.575);
+  
+}
+
+
+
+.btn {
+  margin-top: 1rem;
+  position: relative;
+  cursor: pointer;
+  font-size: .8rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: .7rem 1rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all .2s;
+  border: none;
+  font-family: var(--font-primaria);
+  font-weight: 700;
+  color: black;
+  background-color: white;
+ }
+ 
+ .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+ }
+ 
+ .btn::after {
+  background-color: #fff;
+ }
+ 
+ .btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+ }
+  
+.quote-container {
+    background-color: #000000bb;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+span {
+    font-family: var(--font-primaria);
+    /* font-weight: 700; */
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+#authorOutput{
+    margin-top: 1rem;
+}
+
+small {
+    color: #f9c6a5;
+    box-sizing: border-box;
+    border-left: 4px solid #f75625;
+    padding-left: 2px;
+    font-weight: 700;
+    
+}
+
