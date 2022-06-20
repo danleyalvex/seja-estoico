@@ -11,7 +11,7 @@
 
 .frase {
     background-image: url('../img/celular.png');
-    background-position: -2% 5%;
+    background-position: 45% 5%;
     height: 100vh;
     display: flex;
     flex-direction: column;

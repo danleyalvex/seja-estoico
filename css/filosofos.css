@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(255, 0, 0, 0.37);
+    background-color: rgba(250, 225, 255, 0.041);
     margin-bottom: 2rem;
     padding: 1rem 2rem;
     border-radius: 15px;
@@ -44,3 +44,30 @@
     width: 80%;
    border-radius: 15px;
 }
+
+.btn-filosofos {
+    cursor: pointer;
+    margin-top: 3rem;
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  .btn-filosofos {
+    background: rgb(0,140,255);
+    box-shadow: 0 0 15px rgb(0,140,255);
+  }
+  
+  .btn-filosofos:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+  }

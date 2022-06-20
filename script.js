@@ -94,7 +94,55 @@ const arrayOfQuotes=[
     },
     {
         autor:'Epicteto',
-        frase:'Não é a miséria que dói, mas a cobiça'
+        frase:'Temos dois ouvidos e uma boca para que possamos ouvir duas vezes mais do que falamos.'
+    },
+    {
+        autor:'Epicteto',
+        frase:'É da natureza do sábio resistir aos prazeres, mas do tolo ser escravo deles.'
+    },
+    {
+        autor:'Epicteto',
+        frase:'Primeiro aprenda o significado do que você diz e depois fale.'
+    },
+    {
+        autor:'Epicteto',
+        frase:'Se você quer algo bom, pegue você mesmo.'
+    },
+    {
+        autor:'Sêneca',
+        frase:'Apresse-se e viva.'
+    },
+    {
+        autor:'Sêneca',
+        frase:'Para muitos homens, a aquisição de riqueza não acaba com seus problemas, apenas os muda.'
+    },
+    {
+        autor:'Sêneca',
+        frase:'A vida é muito curta e ansiosa para quem esquece o passado, negligencia o presente e teme o futuro.'
+    },
+    {
+        autor:'Sêneca',
+        frase:'A dificuldade vem da nossa falta de confiança.'
+    },
+    {
+        autor:'Marco Aurélio',
+        frase:'Quanto mais valorizamos as coisas fora do nosso controle, menos controle temos.'
+    },
+    {
+        autor:'Marco Aurélio',
+        frase:'Escolha o tipo de pessoa que você quer ser e mantenha-se fiel a ele, seja sozinho ou acompanhado.'
+    },
+    {
+        autor:'Marco Aurélio',
+        frase:'A melhor resposta para a raiva é o silêncio.'
+    },
+    {
+        autor:'Zenão de citio',
+        frase:'O homem conquista o mundo conquistando a si mesmo.'
+    },
+    {
+        autor:'Zenão de citio',
+        frase:'Melhor tropeçar com os pés do que com a língua.'
     },
 ];
 
@@ -104,4 +152,3 @@ function generateQuote () {
     quoteOutput.innerHTML = `<span>${arrayOfQuotes[random].frase}</span>`;
     authorOutput.innerHTML = `<small>${arrayOfQuotes[random].autor}</small>`;
 }
-

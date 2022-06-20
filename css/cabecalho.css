@@ -1,6 +1,6 @@
 .cabecalho {
     position: absolute;
-    width: 100vw;
+    width: 100%;
     background-color: var(--cor-terciaria);
     font-family: var(--font-terciaria);
 }
@@ -11,7 +11,9 @@
     margin-top: .7rem;
     margin-bottom: .7rem;
 }
-
+.social-links {
+    display: none;
+}
 .navegacao {
 
     margin-bottom: .6rem;
@@ -19,6 +21,8 @@
 
 .nav__links {
     display: flex;
+    font-size: var(--tamanho-texto);
+    padding-top: .5rem;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 1rem;
