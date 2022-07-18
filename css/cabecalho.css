@@ -3,10 +3,15 @@
     width: 100%;
     background-color: var(--cor-terciaria);
     font-family: var(--font-terciaria);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
 }
 
 .cabecalho__logo {
    width: 150px;
+   margin-left: .7rem;
 }
 .social-links {
     display: none;

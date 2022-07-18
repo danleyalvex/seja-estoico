@@ -105,6 +105,16 @@ body {
         margin-bottom: 2rem;
       }
 
+      .cabecalho {
+        position: absolute;
+        width: 100%;
+        background-color: var(--cor-terciaria);
+        font-family: var(--font-terciaria);
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+    }
     
     
 }
