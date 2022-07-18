@@ -6,10 +6,7 @@
 }
 
 .cabecalho__logo {
-    text-align: center;
-    font-size: 2rem;
-    margin-top: .7rem;
-    margin-bottom: .7rem;
+   width: 150px;
 }
 .social-links {
     display: none;

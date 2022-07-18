@@ -1,5 +1,5 @@
 @import url('chamada.css');
-@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Medula+One&family=Quicksand:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 @import url('principios.css');
 @import url('cabecalho.css');
@@ -14,9 +14,9 @@
     --cor-secundaria: #0a0908;
     --cor-terciaria: #3706173a;
     --cor-auxiliar: #9e2a2b;
-    --font-primaria: 'Quicksand', sans-serif;
-    --font-secundaria: 'Medula One';
-    --font-terciaria: 'Macondo Swash Caps';
+    --font-primaria: 'Roboto', sans-serif;
+    --font-secundaria:'Roboto';
+    --font-terciaria: 'Roboto';
     --tamanho-titulo: 1.7rem;
     --tamanho-subtitulo: 1.4rem;
     --tamanho-texto:1.2rem;

@@ -15,8 +15,7 @@
 
 
 .card__filosofos {
-    margin-left: 10%;
-    margin-right: 10%;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,8 +40,10 @@
 }
 
 .filosofos__img {
-    width: 80%;
+
    border-radius: 15px;
+   max-width: 100%;
+   margin: 0 auto;
 }
 
 .btn-filosofos {
@@ -61,8 +62,8 @@
   }
   
   .btn-filosofos {
-    background: rgb(0,140,255);
-    box-shadow: 0 0 15px rgb(0,140,255);
+    background: rgb(255, 30, 0);
+    box-shadow: 0 0 15px rgb(99, 1, 1);
   }
   
   .btn-filosofos:hover {
