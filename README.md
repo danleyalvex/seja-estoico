@@ -1,5 +1,5 @@
 <h1 align='center'>
-daily-quotes
+Estoico-society
 </h1>
 
 <h3 align='center'>Projeto em desenvolvimento... </h3>
